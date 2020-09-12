@@ -7,12 +7,13 @@ class AnalogClock {
         Scanner scanner = new Scanner(System.in);
 
         //Reads ints from user
-
-
+        int hourHand = scanner.nextInt();
+        int minuteHand;
         /*
          *  your code goes here
          */
-
+            minuteHand = (hourHand % 30) * 12;
+            System.out.print(minuteHand);
         // closing the scanner object
         scanner.close();
     }
