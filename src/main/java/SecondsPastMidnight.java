@@ -12,7 +12,7 @@ class SecondsPastMidnight {
         int mins;
 
         /*hours and mins convert the seconds inputted into full hours and full minutes.
-        the full minutes and full hours are thten printed out for the user to see.
+        * the full minutes and full hours are thten printed out for the user to see.
         */
         hours = secs / 3600;
         mins = secs / 60;
